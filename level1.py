@@ -47,7 +47,6 @@ class Statistics:
         counts = {}
         for x in self.data:
             counts[x] = counts.get(x, 0) + 1
-        # Convert to percentage and sort
         dist = [(round((count / self.n) * 100, 1), val) for val, count in counts.items()]
         return sorted(dist, reverse=True)
 
