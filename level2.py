@@ -2,8 +2,8 @@ class PersonAccount:
     def __init__(self, firstname, lastname):
         self.firstname = firstname
         self.lastname = lastname
-        self.incomes = []   # List of dicts: {'amount': 100, 'description': 'bonus'}
-        self.expenses = []  # List of dicts: {'amount': 50, 'description': 'food'}
+        self.incomes = []  
+        self.expenses = []  
 
     def add_income(self, amount, description):
         self.incomes.append({'amount': amount, 'description': description})
