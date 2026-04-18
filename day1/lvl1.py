@@ -7,8 +7,8 @@ print(3 / 4)    # division(/)
 print(3 ** 4)   # exponential(**)
 print(3 // 4)   # floor division operator(//)
 
-print("Sənin Adın")
-print("Sənin Soyadın")
+print("Ad")
+print("Soyad")
 print("Azərbaycan")
 print("I am enjoying 30 days of python")
 
@@ -17,6 +17,6 @@ print(type(9.8))                                 # Float
 print(type(3.14))                                # Float
 print(type(4 - 4j))                              # Complex
 print(type(['Asabeneh', 'Python', 'Finland']))  # List
-print(type("Sənin Adın"))                        # String
-print(type("Sənin Soyadın"))                     # String
+print(type("Ad"))                        # String
+print(type("Soyad"))                     # String
 print(type("Azərbaycan"))                        # String
